@@ -3,17 +3,17 @@
 @import "functions";
 
 // default color scheme
-$bg_color: if($variant == "dark", #444, #f0f0f0);
-$fg_color: if($variant == "dark", #ddd, #444);
+$bg_color: if($variant == "dark", #2d2d2d, #f0f0f0);
+$fg_color: if($variant == "dark", #ddd, #2d2d2d);
 $base_color: if($variant == "dark", #333, #f9f9f9);
 $text_color: if($variant == "dark", #eee, #333);
 $selected_bg_color: #1d90cd;
 $selected_fg_color: #f9f9f9;
-$tooltip_bg_color: #444;
+$tooltip_bg_color: #2d2d2d;
 $tooltip_fg_color: #eee;
 
 // dark colors
-$dark_bg_color: #444;
+$dark_bg_color: #2d2d2d;
 $dark_fg_color: #eee;
 
 // shadows
